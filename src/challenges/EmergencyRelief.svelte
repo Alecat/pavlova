@@ -46,7 +46,4 @@
   img.dimmed {
     opacity: 0.5;
   }
-  .bah {
-    background: red;
-  }
 </style>

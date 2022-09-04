@@ -6,24 +6,11 @@
 
   const langs = Object.keys(LanguageLabels)
 
-  let longestLang = 'en'
-  langs.forEach((l) => {
-    if (challenge[l].length > challenge[longestLang].length) {
-      longestLang = l
-    }
-  })
-
-  const missingLanguages = ['en', 'it', 'de', 'es', 'fr', 'pt']
-    .filter((l) => !challenge[l] || challenge[l].length < challenge[longestLang].length)
-    .map((l) => LanguageLabels[l])
 </script>
 
 <main>
-  {#if !!missingLanguages.length}
-    ⚠️ Need more info! We think there are {challenge[longestLang].length} phrases for this level.
-    <br />
-    {missingLanguages.join(', ')} {missingLanguages.length > 1 ? 'are' : 'is'}  missing phrases.
-  {/if}
+  <p>It is possible to apply two toppings from one icing machine with the right timing. Stomp, drop the second item into the machine and then stomp again.</p>
+  <p><strong>Softlock warning</strong><br />Cookies can despawn if they are placed on the conveyors. This makes the level impossible to finish (to our knowledge).</p>
   <div class="grid">
     {#each challenge[$lang] as cookie}
       <div>{cookie.phrase}</div>

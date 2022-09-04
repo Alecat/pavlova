@@ -14,7 +14,7 @@ const week7: Level[] = [
         ['Tina Bitters', 'Kruk Rattus', '', Postcode['Painted Cliffs'], Postcode['Painted Cliffs']],
         ['Payla Hornsby', 'Simon Spiffwelter', '', Postcode['Gumtree Grove'], Postcode['Gumtree Grove']],
         ['Phil Bean', undefined, '', undefined, Postcode['Gumtree Grove']],
-        ['Penny Holmstead', 'Cordelia Custard', '', Postcode['Lake Bessy'], Postcode['Lake Bessy']], // es: Pingueta Pizpireta + Pamela Pastelillo
+        ['Penny Holmstead', 'Cordelia Custard', 'N, 1 + S, 2', Postcode['Lake Bessy'], Postcode['Lake Bessy']], // es: Pingueta Pizpireta + Pamela Pastelillo
       ],
     },
   },
@@ -363,6 +363,7 @@ const week7: Level[] = [
     week: 7,
     day: 3,
     name: 'Dueling Crates',
+    notes: 'The items can be shoved from left to right on the conveyors, but not from right to left',
     challenge: {
       type: 'Shipping',
       packages: [

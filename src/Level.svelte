@@ -16,7 +16,7 @@
 <main  id="{level.week}.{level.day}">
   <h1>{level.week}.{level.day} {level.name}</h1>
   {#if level.notes}
-  <span>{level.notes}</span>
+  <span>{@html level.notes}</span>
   {/if}
 
   {#if level.challenge.type === 'Transcription'}
@@ -47,6 +47,7 @@
     <BobbingForBoxes challenge={level.challenge} />
   {/if}
   {#if level.challenge.type === 'TracksOfTerror'}
+  There are two configurations for this level.<br />
   <div class="tracksofterror">
     <img alt="4 green, 2 blue" src="tracksofterror/green.svg" />
     <img alt="4 blue, 2 green" src="tracksofterror/blue.svg" />
@@ -66,7 +67,7 @@
     font-weight: 300;
   }
   .tracksofterror {
-    height: calc(100vh - 12rem);
+    height: calc(100vh - 14rem);
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;

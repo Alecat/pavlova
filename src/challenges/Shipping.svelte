@@ -2,7 +2,6 @@
   import type { Shipping, ShippingPackage } from '../interfaces'
   import Suburb from '../Suburb.svelte'
   import Label from '../Label.svelte'
-  import Level from '../Level.svelte'
   export let challenge: Shipping
   export let levelId: string
 

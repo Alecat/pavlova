@@ -74,6 +74,7 @@ const week3: Level[] = [
     week: 3,
     day: 2,
     name: 'A Sinking Feeling',
+    notes: 'One sticker will always be a Fragile that is not used.',
     challenge: {
       type: 'Shipping',
       packages: [
@@ -107,10 +108,13 @@ const week3: Level[] = [
     week: 3,
     day: 3,
     name: 'Bouncing Boxes (And Blimps)',
+    notes:
+      'In the Shu Mei / Corncob Collins puzzle, only ONE of the Gumtree Grove letters needs to be delivered for the bells to appear.',
     challenge: {
       type: 'Dropoff',
       out: [
-        ['Shu Mei', 'Corncob Collins'],
+        ['Shu Mei', 'Corncob Collins', 'North, 2, 1', Postcode['Gumtree Grove'], Postcode['Gumtree Grove']],
+        ['Yim Pippers', 'Payla Hornsby', 'North, North, 1', Postcode['Lake Bessy'], Postcode['Gumtree Grove']],
         ['Sandy Man', 'Velma Turnly'],
         ['Mai Phathur', 'Foggy Matthews'],
         ['Simon Spiffwelter', 'Darla Dimplestein'],

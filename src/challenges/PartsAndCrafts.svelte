@@ -11,7 +11,12 @@
 
 <main>
   Papa Moon's faces are randomised between two sets.
-  <br />
+  <p>
+  <strong>Tips</strong><br>
+  The yellow face always gets the bushy eyebrows and tongue<br />
+  The gooseberry eyes always go together with the leafy beard<br />
+  The pipecleaner mouth always goes together with the bell<br />
+  </p>
   <div class="grid">
       <img src="partsandcrafts/bird_1.png" class={face==='ribbon' ? 'hide' : ''} on:click={() => setFaces('bird')} alt="Yellow: Bird, Bushy Eyebrows, Tongue" />
       <img src="partsandcrafts/bird_2.png" class={face==='ribbon' ? 'hide' : ''} on:click={() => setFaces('bird')} alt="Blue: Leaves, Gooseberries, Smile" />

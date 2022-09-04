@@ -168,6 +168,7 @@ const week8: Level[] = [
     week: 8,
     day: 4,
     name: "That's A Wrap",
+    notes: "You can pull a package onto a conveyor and push it off with a single kiwi - see<br /> <video height='200px' controls><source src='https://cdn.discordapp.com/attachments/890853911852888105/909079781029593149/video0.mov' type='video/mp4' /></video>",
     challenge: {
       type: 'Dropoff',
       out: [

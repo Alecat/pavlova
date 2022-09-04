@@ -145,7 +145,7 @@ const week1: Level[] = [
     name: 'The Shipping Floor',
     week: 1,
     day: 3,
-    notes: 'In a fresh savefile, the parcels are always the Hourglass, the Shaking Box and the Pineapple',
+    notes: 'In a fresh savefile, the parcels are always the Hourglass, the Shaking Box and the Pineapple, in that order',
     challenge: {
       type: 'Shipping',
       packages: [

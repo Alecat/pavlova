@@ -76,6 +76,7 @@ const week8: Level[] = [
     week: 8,
     day: 3,
     name: 'The Hollyjostle Tinkertrack',
+    notes: 'If a letter is replaced by a toy postman or tree, then the spot can still be stomped to type the letter.',
     challenge: {
       type: 'Telegraph',
       en: [

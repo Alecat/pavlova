@@ -5,6 +5,7 @@ const week6: Level[] = [
     week: 6,
     day: 1,
     name: 'Tricks And Telegrams',
+    notes: 'After a cassowary turns up, it will input its key 13 seconds later. After that, it inputs a keypress every 6 seconds',
     challenge: {
       type: 'Telegraph',
       en: [

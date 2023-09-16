@@ -256,6 +256,7 @@
   div.seasons,
   div.sidebar {
     overflow-y: auto;
+    resize: horizontal;
   }
   .seasons .seasons-info {
     display: none;
